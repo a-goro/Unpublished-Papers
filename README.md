@@ -15,9 +15,9 @@ Anyone can use these files to **verify that the PDF exists and is authored by As
 
 ## How to Verify the Proof
 
-### Import the public key
+### Import the public key  
 
-gpg --import asel_goro_public.asc
-gpg --verify document-proof.txt.asc document-proof.txt
+gpg --import asel_goro_public.asc  
+gpg --verify document-proof.txt.asc document-proof.txt  
 
-the paper would then be verified using : sha512sum signed_paper.pdf
+the paper would then be verified using : sha512sum signed_paper.pdf  
