@@ -1,0 +1,21 @@
+Proof of Ownership
+
+I, Asel Goro, hereby declare that I am the creator and owner of the PDF file named "signed_paper.pdf" which is a draft of my physics discovery. I keep it undisclosed until further consultation with peers and colleagues for verification and ethical/moral discussions.
+
+The following SHA-512 hash uniquely identifies that file as it existed at the time of this declaration:
+
+SHA-512: 736539c79792d56b2f00760fa33ef59f0bdb1438c37177682bc1605060083685bd7ef93e0503cd7bbb359f6cc8a1bcbbd100e8382214733eb3b1d3b8052c6110  signed_paper.pdf
+
+Date (UTC): 2025-11-11T02:53:41Z
+
+This statement, including the hash above, is digitally signed using my PGP key:
+Key ID (short): BC13B4F6
+Fingerprint: 9A03 C6CC A841 8378 7715 AC81 A37D BF94 BC13 B4F6
+
+Any party may verify my signature and the file’s integrity by checking the PGP signature and recomputing the SHA-512 of the original document.
+
+Public key available at: asel_goro_public.asc
+
+# to prove :
+# gpg --import asel_goro_public.asc
+# gpg --verify document-proof.txt.asc document-proof.txt
