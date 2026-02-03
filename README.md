@@ -9,6 +9,7 @@ The files in this repository serve as a **cryptographic proof of ownership** for
 - `document-proof.txt.asc` — Detached PGP signature of the proof text  
 - `asel_goro_public.asc` — Public key for signature verification  
 - `geophysics.signed.pdf` - paper 2 on geo-physics sha-512.  
+- `qf.asc` - paper signture on EQF theoratical physics.
 
 Anyone can use these files to **verify that the PDF exists and is authored by Asel Goro** without revealing its contents.
 
